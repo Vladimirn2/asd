@@ -1,0 +1,383 @@
+body{
+    background-color: #0F2F50;
+}
+.center{
+    position: relative;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+}
+
+.back{
+    width: 70%;
+}
+
+h1{
+    font-size: 90px;
+    font-family: Evolventa;
+    color: white;
+    text-align: center;
+}
+
+h2{
+    font-size: 50px;
+    font-family: Evolventa;
+    color: white;
+    text-align: center;
+    padding-bottom: 1.7%;
+}
+
+p{
+    font-size: 30px;
+    font-family: Evolventa;
+    text-align: justify;
+    color: white;
+    padding-bottom: 1.7%;
+}
+
+.single{
+    width: 100%;
+}
+.double{
+    width: 100%;
+    padding: 10px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.img{
+    transition: all 0.3s ease-out;
+    padding: 15px;
+}
+
+.img:hover{
+    transform: scale(1.1);
+}
+
+#img{
+    width: 100%;
+}
+
+video{
+    padding-top: 35px;
+}
+
+@media (max-width:900px){
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+    }
+
+    .back{
+        width: 85%;
+    }
+
+    h1{
+        font-size: 55px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+    
+    p{
+        font-size: 23px;
+    }
+}
+
+
+
+.lqadro, .lqadro_osmall, .lqadro_micro, .lqadro_sborder, .lqadro_big, .lqadro_omedium, .lqadro_twmedium, .lqadro_obborder, .lqadro_thmedium, .lqadro_twbborder, .lqadro_thbborder, .lqadro_twsmall, .lqadro_fmedium, .lqadro_mborder{
+    position: absolute;
+}
+
+.lqadro{
+    position: fixed;
+    background: #0756a7;
+    width: 30vh;
+    height: 30vh;
+    rotate: 45deg;
+    z-index: 2;
+    border-radius: 15%;
+    top: 76%;
+    left: -2.5%;
+}
+.lqadro_osmall{
+    background: #80a9d1;
+    width: 4vh;
+    height: 4vh;
+    z-index: 3;
+    border-radius: 15%;
+    top: 24%;
+    left: 52%;
+}
+.lqadro_micro{
+    background: #80a9d1;
+    width: 2vh;
+    height: 2vh;
+    z-index: 3;
+    border-radius: 15%;
+    top: 26%;
+    left: 32%;
+}
+.lqadro_sborder{
+    width: 4vh;
+    height: 4vh;
+    z-index: 3;
+    border: 0.7vh solid #5089c4;
+    border-radius: 15%;
+    top: 7%;
+    left: 32%;
+}
+
+.lqadro_big{
+    background: #007fff;
+    width: 10vh;
+    height: 10vh;
+    z-index: 3;
+    border-radius: 15%;
+    top: 50%;
+    left: 30.7%;
+}
+
+.lqadro_big{
+    background: #007fff;
+    width: 10vh;
+    height: 10vh;
+    z-index: 3;
+    border-radius: 15%;
+    top: 50%;
+    left: 30.7%;
+}
+
+.lqadro_omedium{
+    background: #036cd5;
+    width: 6vh;
+    height: 6vh;
+    z-index: 4;
+    border-radius: 15%;
+    opacity: 0.5;
+    top: 21%;
+    left: 58%;
+}
+
+.lqadro_twmedium{
+    background: #447fbc;
+    width: 6vh;
+    height: 6vh;
+    z-index: 4;
+    border-radius: 15%;
+    opacity: 0.5;
+    top: -5%;
+    left: 52%;
+}
+
+.lqadro_obborder{
+    width: 13vh;
+    height: 13vh;
+    z-index: 4;
+    border: 0.9vh solid #076ace;
+    border-radius: 15%;
+    opacity: 0.5;
+    top: -8%;
+    left: -22%;
+}
+
+.lqadro_thmedium{
+    background: #0756a7;
+    width: 6vh;
+    height: 6vh;
+    z-index: 3;
+    border-radius: 15%;
+    top: 5%;
+    left: -30%;
+}
+
+.lqadro_twbborder{
+    width: 13vh;
+    height: 13vh;
+    z-index: 4;
+    border: 1.5vh solid #0a78e6;
+    border-radius: 15%;
+    opacity: 0.5;
+    top: -15%;
+    right: -35%;
+}
+
+.lqadro_thbborder{
+    width: 13vh;
+    height: 13vh;
+    z-index: 4;
+    border: 1.5vh solid #0a78e6;
+    border-radius: 15%;
+    opacity: 0.5;
+    top: 40%;
+    right: -35%;
+}
+
+.lqadro_twsmall{
+    background: #0756a7;
+    width: 4vh;
+    height: 4vh;
+    z-index: 3;
+    border-radius: 15%;
+    top: 3%;
+    right: -15%;
+}
+
+.lqadro_fmedium{
+    background: #0755a6;
+    width: 5vh;
+    height: 5vh;
+    z-index: 3;
+    border-radius: 15%;
+    top: -2%;
+    right: -42%;
+}
+
+.lqadro_mborder{
+    width: 7vh;
+    height: 7vh;
+    z-index: 5;
+    border: 0.7vh solid #123c65;
+    border-radius: 15%;
+    opacity: 0.5;
+    top: -20%;
+    right: -39%;
+}
+
+
+
+.rqadro, .rqadro_omedium, .rqadro_osmall, .rqadro_twsmall, .rqadro_sborder, .rqadro_twmedium, .rqadro_thmedium, .rqadro_obborder, .rqadro_thsmall, .rqadro_twbborder, .rqadro_fsmall, .rqadro_mborder{
+    position: absolute;
+}
+
+.rqadro{
+    position: fixed;
+    background: #0756a7;
+    width: 40vh;
+    height: 40vh;
+    rotate: 45deg;
+    z-index: 2;
+    border-radius: 15%;
+    top: -15%;
+    right: -7%;
+}
+
+.rqadro_omedium{
+    background: #007fff;
+    width: 10vh;
+    height: 10vh;
+    z-index: 3;
+    border-radius: 15%;
+    top: 25%;
+    right: 37%;
+}
+
+.rqadro_osmall{
+    background: #82aad2;
+    width: 5vh;
+    height: 5vh;
+    z-index: 3;
+    border-radius: 15%;
+    bottom: 26%;
+    right: 50%;
+}
+
+.rqadro_twsmall{
+    background: #82aad2;
+    width: 3vh;
+    height: 3vh;
+    z-index: 3;
+    border-radius: 15%;
+    bottom: 28%;
+    right: 34%;
+}
+
+.rqadro_sborder{
+    width: 4vh;
+    height: 4vh;
+    border: 0.6vh solid #82aad2;
+    border-radius: 15%;
+    opacity: 0.5;
+    bottom: 13%;
+    right: 33%;
+}
+
+.rqadro_twmedium{
+    background: #007fff;
+    width: 7vh;
+    height: 7vh;
+    z-index: 4;
+    border-radius: 15%;
+    opacity: 0.5;
+    bottom: 23%;
+    left: 27%;
+}
+
+.rqadro_thmedium{
+    background: #82aad2;
+    width: 7vh;
+    height: 7vh;
+    z-index: 4;
+    border-radius: 15%;
+    opacity: 0.5;
+    bottom: -5%;
+    left: 33%;
+}
+
+.rqadro_obborder{
+    width: 13vh;
+    height: 13vh;
+    z-index: 4;
+    border: 0.8vh solid #0a78e6;
+    border-radius: 15%;
+    opacity: 0.5;
+    bottom: -5%;
+    right: -10%;
+}
+
+.rqadro_thsmall{
+    background: #0756a7;
+    width: 7vh;
+    height: 7vh;
+    z-index: 3;
+    border-radius: 15%;
+    bottom: 0%;
+    right: -23%;
+}
+
+.rqadro_twbborder{
+    width: 15vh;
+    height: 15vh;
+    z-index: 4;
+    border: 1.5vh solid #0a78e6;
+    border-radius: 15%;
+    opacity: 0.5;
+    bottom: -10%;
+    left: -34%;
+}
+
+.rqadro_fsmall{
+    background: #0756a7;
+    width: 5vh;
+    height: 5vh;
+    z-index: 3;
+    border-radius: 15%;
+    bottom: 2%;
+    left: -14%;
+}
+
+.rqadro_mborder{
+    width: 9vh;
+    height: 9vh;
+    border: 0.8vh solid #113459;
+    border-radius: 15%;
+    z-index: 4;
+    opacity: 0.5;
+    bottom: -18%;
+    left: -37%;
+}
